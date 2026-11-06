@@ -78,7 +78,7 @@ const BackToTopButton = () => {
 
 function App() {
   return (
-    <Router basename="/school-template/">
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollRevealManager />
       <div className="App min-h-screen flex flex-col bg-[#FAF9F6] text-stone-900">
         <Navbar />
