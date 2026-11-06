@@ -1,0 +1,51 @@
+/* src/components/Parent/Page.css */
+
+.page {
+  position: relative;
+  width: 100%;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.45s ease;
+  transform-style: preserve-3d;
+}
+
+.page-next {
+  animation: turnNext 0.45s forwards;
+}
+
+.page-prev {
+  animation: turnPrev 0.45s forwards;
+}
+
+@keyframes turnNext {
+  0% {
+    opacity: 1;
+    transform: perspective(1200px) rotateY(0deg);
+  }
+  100% {
+    opacity: 0.25;
+    transform: perspective(1200px) rotateY(-90deg);
+  }
+}
+
+@keyframes turnPrev {
+  0% {
+    opacity: 1;
+    transform: perspective(1200px) rotateY(0deg);
+  }
+  100% {
+    opacity: 0.25;
+    transform: perspective(1200px) rotateY(90deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-next,
+  .page-prev {
+    animation: none;
+  }
+}

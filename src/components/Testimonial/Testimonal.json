@@ -1,0 +1,52 @@
+[
+  {
+    "name": "John Doe",
+    "role": "Parent of Grade 9 Student",
+    "comment": "The teachers here genuinely care about each student's academic and personal growth."
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Parent of Grade 5 Student",
+    "comment": "We have had a wonderful experience with the school's supportive community and faculty."
+  },
+  {
+    "name": "Emily Johnson",
+    "role": "Alumni, Class of 2022",
+    "comment": "St. Joseph's gave me the academic foundation and confidence to excel at university."
+  },
+  {
+    "name": "Michael Brown",
+    "role": "Parent & PTA Member",
+    "comment": "Exceptional balance of rigorous classroom learning, athletics, and arts programs."
+  },
+  {
+    "name": "Chris Davis",
+    "role": "Parent of Grade 7 Student",
+    "comment": "Couldn't be happier with the safe, welcoming environment my children enjoy every day."
+  },
+  {
+    "name": "Jessica Wilson",
+    "role": "Community Partner",
+    "comment": "A benchmark for holistic education and student leadership in our community."
+  },
+  {
+    "name": "David Lee",
+    "role": "Parent of Grade 10 Student",
+    "comment": "Outstanding mentorship and SEE board preparation from dedicated subject teachers."
+  },
+  {
+    "name": "Sophia Martinez",
+    "role": "Parent of Grade 3 Student",
+    "comment": "My daughter looks forward to school every morning—from science labs to music class."
+  },
+  {
+    "name": "James Anderson",
+    "role": "Alumni Parent",
+    "comment": "Both of my children graduated from St. Joseph's with lifelong friendships and strong values."
+  },
+  {
+    "name": "Linda Thompson",
+    "role": "Parent of Grade 6 Student",
+    "comment": "Clear communication with parents and a truly nurturing academic atmosphere."
+  }
+]
